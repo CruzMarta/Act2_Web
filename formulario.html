@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad - Que comience el juego!</title>
+</head>
+
+<body class="bodyFormulario">
+    <form action="raul.rodriguez@proeducaglobal.com" name="Breaking Bad - Que comience el juego!">
+        <fieldset class="tablaExterna">
+            <legend>
+                <h2>Formulario alta usuario</h2>
+            </legend>
+            <fieldset class="tablaInterna">
+                <legend>
+                    <h3>Nombre y Apellidos</h3>
+                </legend>
+                <!--Campo de entrada de nombre-->
+                Nombre:<input type="text" name="Nombre" autocomplete="off" placeholder="Introduce tu nombre..."
+                    required>
+                <!--Campo de entrada de apellidos-->
+                <br>
+                Apellidos:<input type="text" name="Apellidos" autocomplete="off"
+                    placeholder="Introduce tus apellidos..." required>
+            </fieldset>
+            <br>
+            <fieldset class="tablaInterna">
+                <legend>
+                    <h3>Datos usuario</h3>
+                </legend>
+                <!--Campos de entrada de datos usuario-->
+                Calle: <input type="text" placeholder="Nombre de la calle">
+                Numero: <input type="number" placeholder="Número de la calle">
+                Piso: <input type="text" placeholder="Piso">
+                <br>
+                Codigo Postal: <input type="number" placeholder="Código Postal">
+                Ciudad: <input type="text" placeholder="Ciudad">
+                <br>
+                DNI: <input type="number" name="DNI" placeholder="Introduce tu DNI">
+                Correo electrónico: <input type="email" name="correo" placeholder="nombre@dominio.com" required>
+                <br>
+                <!--Botones eleccion sexo usuario-->
+                Sexo: <input type="radio" name="sexo" value="H"> Hombre
+                <input type="radio" name="sexo" value="M"> Mujer
+                <br>
+                <!--Fecha nacimiento en formato calendario-->
+                Fecha de nacimiento: <input type="date">
+            </fieldset>
+            <fieldset class="tablaInterna">
+                <legend>
+                    <h3>Seleccione un personaje de la lista</h3>
+                </legend>
+                <!--Lista desplegable para seleccionar personaje-->
+                <select name="personaje">
+                    <option value="1">Jessie Pinkman</option>
+                    <option value="2">Walter White</option>
+                    <option value="3">Saul Goodman</option>
+                    <option value="4">Gustavo Fring</option>
+                    <option value="5">Pollos Hermanos</option>
+                    <option value="6" selected>Otros personajes</option>
+                </select>
+            </fieldset>
+            <fieldset class="tablaInterna">
+                <legend>
+                    <h3>Comentarios</h3>
+                </legend>
+                <!--Área de texto de libre escritura-->
+                <textarea placeholder="Escriba aqui su comentario..." name="comentarios"></textarea>
+            </fieldset>
+            <input type="file" id="archivo">
+            <input type="submit" formaction="raul.rodriguez@proeducaglobal.com" class="botones">
+            <input type="reset" class="botones">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
