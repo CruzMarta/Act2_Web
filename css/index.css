@@ -16,7 +16,7 @@
 .bodyIndex {
     place-items: center;
     color: white;
-    background-image: url(/img/fondo.jpg);
+    background-image: url('/img/fondo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "BreakingBad";
@@ -24,7 +24,7 @@
 }
 
 #logo {
-    background-image: url(/img/logo.PNG);
+    background-image: url("/img/logo.png");
     background-position: top center;
     background-repeat: no-repeat;
     width: 200px;
