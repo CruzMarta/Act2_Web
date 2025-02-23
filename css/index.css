@@ -3,7 +3,7 @@
 /*Fuente personalizada*/
 @font-face {
     font-family:"BreakingBad";
-    src: url(/fonts/BreakingBad.ttf);
+    src: url('/fonts/BreakingBad.ttf');
 }
 
 :root {
@@ -24,7 +24,7 @@
 }
 
 #logo {
-    background-image: url("/img/logo.png");
+    background-image: url('/img/logo.png');
     background-position: top center;
     background-repeat: no-repeat;
     width: 200px;
@@ -42,7 +42,7 @@
 .bodyFormulario {
     place-items: center;
     color: white;
-    background-image: url(/img/fondo.jpg);
+    background-image: url('/img/fondo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Helvetica, sans-serif;
@@ -71,7 +71,7 @@
 /*Pagina Tabla Periodica*/
 #bodyTabla {
     background-color: #0c3e11;
-    background-image: url(/img/cabecera.png);
+    background-image: url('/img/cabecera.png');
     background-position: top center;
     background-repeat: no-repeat;
     place-items: center;
@@ -155,7 +155,7 @@ td:empty {
 }
 
 #Ha {
-    background-image: url(/img/hankschrader.png);
+    background-image: url('/img/hankschrader.png');
     background-repeat: no-repeat;
     background-position: cover;
     margin: 0;
@@ -172,7 +172,7 @@ td:empty {
 }
 
 #bus {
-    background-image: url(/img/bus.png);
+    background-image: url('/img/bus.png');
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(195, 198, 41);
@@ -180,7 +180,7 @@ td:empty {
 }
 
 #pistola {
-    background-image: url(/img/pistola.png);
+    background-image: url('/img/pistola.png');
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(195, 198, 41);
@@ -188,56 +188,56 @@ td:empty {
 }
 
 #pocima {
-    background-image: url(/img/pocima.png);
+    background-image: url('/img/pocima.png');
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(195, 198, 41);
 }
 
 #movil {
-    background-image: url(/img/movil.png);
+    background-image: url('/img/movil.png');
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(195, 198, 41);
 }
 
 #mosca {
-    background-image: url(/img/mosca.png);
+    background-image: url('/img/mosca.png');
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(195, 198, 41);
 }
 
 #cristal {
-    background-image: url(/img/cristal.png);
+    background-image: url('/img/cristal.png');
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(195, 198, 41);
 }
 
 #pizza {
-    background-image: url(/img/pizza.png);
+    background-image: url('/img/pizza.png');
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(195, 198, 41);
 }
 
 #calzoncillos {
-    background-image: url(/img/calzoncillos.png);
+    background-image: url('/img/calzoncillos.png');
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(195, 198, 41);
 }
 
 #mascara {
-    background-image: url(/img/mascara.png);
+    background-image: url('/img/mascara.png');
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(195, 198, 41);
 }
 
 #plato {
-    background-image: url(/img/plato.png);
+    background-image: url('/img/plato.png');
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgb(195, 198, 41);
